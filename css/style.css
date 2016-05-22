@@ -1,0 +1,63 @@
+#main{
+	border: 2px solid #555;
+	margin: 1px;
+	padding: 5px 10px;
+}
+#main h1{
+	color: #555;
+}
+section{
+	margin: 0 auto;
+	width: 90%;
+}
+section input, section select{
+	background: #fff;
+	border: 2px solid #555;
+	border-radius: 5px;
+	margin: 20px 10px 20px 0px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto;
+}
+section select{
+	height: 44px;
+}
+#btn{
+	background: #ccc;
+	height: 44px;
+	width: 220px;
+}
+table{
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+table th, td{
+	border: 2px solid #555;
+	padding: 5px;
+	text-align: left;
+}
+table th{
+	background: #D48F8F;
+}
+table tr:nth-child(2n) {
+background: #f0f0f0; /* Цвет фона */
+} 
+
+.sortorder{
+	display: inline-block;
+	/*opacity: 0;	*/
+	width: 70%;
+}
+
+th:hover .sortorder{
+	/*opacity: 1;*/
+}
+
+.sortorder:after {
+  	content: '\25b2';	
+}
+.sortorder.reverse:after {
+	content: '\25bc';
+}
+
