@@ -3,7 +3,7 @@
     var grow = angular.module('growApp', []);
 
     grow.controller("usersCtrl", function($scope, $http) {
-        var url = '../json/users.json';
+        var url = 'json/users.json';
 
         $http.get(url).success(function(response) {
             $scope.users = response;
@@ -16,7 +16,7 @@
             $scope.predicate = predicate;
         };
 
-        $http.get('../json/combobox.json').success(function(response) {
+        $http.get('json/combobox.json').success(function(response) {
             $scope.comboboxes = response;
         });
 

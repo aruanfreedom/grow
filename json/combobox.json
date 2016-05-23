@@ -1,2 +1,2 @@
-[{"id":1,"select":"Персонал", "value":"users", "url": "../json/users2.json"},
-{"id":2,"select":"Женский отдел", "value":"users2", "url": "../json/users3.json"}]
+[{"id":1,"select":"Персонал", "value":"users", "url": "json/users2.json"},
+{"id":2,"select":"Женский отдел", "value":"users2", "url": "json/users3.json"}]
